@@ -15,8 +15,8 @@ public class CurrentTeam {
 	// CurrentTeam has a games(int).
 	// CurrentTeam has a teamFile(File).
 	// CurrentTeam has a leaderboardFile(File).
-    private List<CurrentPlayer> players;
-    private List<CurrentPlayer> leaderboard;
+    private ArrayList<CurrentPlayer> players;
+    private ArrayList<CurrentPlayer> leaderboard;
     private int games;
     private File teamFile;
     private File leaderboardFile;
@@ -36,7 +36,7 @@ public class CurrentTeam {
    	* 
    	* @return the players instance variable
    	*/
-    public List<CurrentPlayer> getPlayers() {
+    public ArrayList<CurrentPlayer> getPlayers() {
     	// We simply return players.
         return players;
     }
@@ -46,7 +46,7 @@ public class CurrentTeam {
    	* 
    	* @return the leaderboard instance variable
    	*/
-    public List<CurrentPlayer> getLeaderboard() {
+    public ArrayList<CurrentPlayer> getLeaderboard() {
     	// We simply return leaderboard.
     	return leaderboard;
     }

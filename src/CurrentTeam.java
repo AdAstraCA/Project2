@@ -10,8 +10,8 @@ import java.util.Scanner;
 
 public class CurrentTeam {
 	// Declaring the instance variables.
-	// CurrentTeam has a players(List of CurrentPlayers).
-	// CurrentTeam has a leaderboard(List of CurrentPlayers)
+	// CurrentTeam has a players(ArrayList of CurrentPlayers).
+	// CurrentTeam has a leaderboard(ArrayList of CurrentPlayers)
 	// CurrentTeam has a games(int).
 	// CurrentTeam has a teamFile(File).
 	// CurrentTeam has a leaderboardFile(File).
